@@ -42,7 +42,6 @@ public class LoanEligibilityService {
     } else {
       acknowledgement.setApprovedAmount(DEFAULT_APPROVED_AMOUNT);
       acknowledgement.setEligible(true);
-      mismatchCriteriaList.clear();
     }
 
     return acknowledgement;
